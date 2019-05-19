@@ -3,7 +3,7 @@ const request = require('request')
 require('date-utils')
 const moment = require('moment')
 
-gasUrl = 'https://script.google.com/macros/s/AKfycbzeZwH8V7Dxmq82jtnHS8T0hxGq4ZyJNH6SNWVhQGM0LLzVI69k/exec'
+gasUrl = ''
 
 exports.users = functions.https.onRequest((req, res) => {
   var options
